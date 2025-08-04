@@ -1,0 +1,9 @@
+.card{
+    width: fit-content;
+    height: auto;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+.card:hover{
+    border: 1px solid cyan;
+}

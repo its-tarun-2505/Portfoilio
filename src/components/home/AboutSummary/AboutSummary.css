@@ -1,0 +1,85 @@
+.about-summary {
+  width: 90%;
+  margin: 5rem auto;
+  padding: 2.5rem;
+  background: rgba(255, 255, 255, 0.05); /* glass effect */
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+  color: #f0f0f0;
+  text-align: center;
+  line-height: 1.8;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Heading */
+.about-heading {
+  font-size: 2.8rem;
+  margin-bottom: 1.5rem;
+  color: #00d9ff;
+  font-weight: bold;
+  text-shadow: 0 0 12px rgba(0, 217, 255, 0.3);
+}
+
+/* Subheading and Paragraphs */
+.about-summary h4 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+  color: #e0e0e0;
+}
+
+.about-summary p {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+.about-summary h5 {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: #ddd;
+  font-weight: 600;
+}
+
+/* Controls */
+.about-controls {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1rem;
+  color: #aaa;
+}
+
+/* LinkedIn Button */
+.linkedin-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #0077b5;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.linkedin-link:hover {
+  background-color: transparent;
+  border-color: #00d9ff;
+  color: #00d9ff;
+}
+
+/* Optional divider */
+.about-summary::before {
+  content: '';
+  display: block;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #00d9ff, transparent);
+  margin-bottom: 2rem;
+}

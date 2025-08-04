@@ -1,0 +1,165 @@
+.hero-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 100px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.hero-section__info {
+  max-width: 45%;
+}
+
+.animated-text {
+  color: #00d9ff;
+  font-weight: bold;
+  border-right: 2px solid #00d9ff;
+  padding-right: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.hero-section__info h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.hero-section__info h2 {
+  font-size: 2rem;
+  color: #00d9ff;
+  margin-bottom: 1rem;
+}
+
+.hero-section__info p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.hero-buttons .btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  background-color: #00d9ff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 0.5rem 1rem 0 0;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.hero-buttons .btn:hover {
+  background-color: #00b8d4;
+  transform: scale(1.05);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 2px solid #00d9ff;
+  color: #00d9ff;
+}
+
+.btn-secondary:hover {
+  background-color: #00d9ff;
+  color: #000;
+}
+
+.hero-social-links {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1.2rem;
+}
+
+.hero-social-links a {
+  font-size: 1.5rem;
+  color: #00d9ff;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.hero-social-links a:hover {
+  transform: scale(1.2);
+  color: #ffffff;
+}
+
+.hero-section__image_container {
+  width: 35%;
+  min-width: 280px;
+  height: auto;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s ease-in-out;
+}
+
+.hero-section__image_container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  border-radius: 30px;
+  transition: all 0.5s ease-in-out;
+}
+
+/* ========== Responsive Breakpoints ========== */
+
+/* Tablets & small laptops */
+@media (max-width: 1024px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 80px 20px;
+    height: auto;
+  }
+
+  .hero-section__info {
+    max-width: 100%;
+  }
+
+  .hero-section__image_container {
+    width: 60vw;
+    max-width: 350px;
+    margin-top: 2rem;
+    border-radius: 50%;
+  }
+
+  .hero-social-links {
+    justify-content: center;
+  }
+}
+
+/* Phones */
+@media (max-width: 450px) {
+  .hero-section {
+    padding: 80px 10px;
+  }
+
+  .hero-section__image_container {
+    width: 65vw;
+    max-width: 240px;
+    margin-top: 1.5rem;
+    border-radius: 50%;
+  }
+
+  .hero-section__info h1 {
+    font-size: 2rem;
+  }
+
+  .hero-section__info h2 {
+    font-size: 1.5rem;
+  }
+
+  .hero-section__info p {
+    font-size: 1rem;
+  }
+}

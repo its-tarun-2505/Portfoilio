@@ -1,0 +1,49 @@
+.contact-preview {
+  background: linear-gradient(120deg, #203a43, #2c5364);
+  padding: 4rem 2rem;
+  text-align: center;
+  color: #f1f1f1;
+  border-radius: 1.5rem;
+  margin: 4rem auto 0 auto;
+  max-width: 800px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.contact-preview-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #00d9ff;
+}
+
+.contact-preview h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact-preview p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin-bottom: 2rem;
+  color: #e0e0e0;
+}
+
+.contact-button {
+  text-decoration: none;
+  background-color: #00d9ff;
+  color: #0f2027;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #00bcd4;
+  transform: scale(1.05);
+}
