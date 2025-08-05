@@ -24,7 +24,7 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-.project-card {
+.home-project-card {
   background: rgba(255, 255, 255, 0.05);
   border-radius: 16px;
   padding: 2rem;
@@ -33,29 +33,29 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.project-card:hover {
+.home-project-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 10px 25px rgba(0, 217, 255, 0.2);
 }
 
-.project-card h3 {
+.home-project-card h3 {
   font-size: 1.4rem;
   margin-bottom: 0.5rem;
   color: #00d9ff;
 }
 
-.project-card p {
+.home-project-card p {
   font-size: 1rem;
   margin-bottom: 1rem;
   color: #ddd;
 }
 
-.project-card ul {
+.home-project-card ul {
   list-style: none;
   padding-left: 0;
 }
 
-.project-card li {
+.home-project-card li {
   margin: 0.4rem 0;
   font-size: 0.95rem;
   color: #bbb;

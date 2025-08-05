@@ -1,13 +1,13 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Container } from "react-bootstrap";
 import "./Navbar.css";
 
-const Navbars = () => {
+const Navbars = React.forwardRef((_, ref) => {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 80);
+    const handleScroll = () => setScrolled(window.scrollY > 0);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -15,7 +15,7 @@ const Navbars = () => {
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
-    <header className={`custom-navbar ${scrolled ? "scrolled" : ""}`}>
+    <header ref={ref} className={`custom-navbar ${scrolled ? "scrolled" : ""}`}>
       <Container className="nav-container">
         <a href="/home" className="brand">Tarun Agarwal</a>
 
@@ -23,7 +23,7 @@ const Navbars = () => {
           <a href="/home">Home</a>
           <a href="/projects">Projects</a>
           <a href="/about">About</a>
-          <a href="/contact">Contact Me</a>
+          <a href="/contact" className="text-nowrap">Contact Me</a>
           <a href="/resume">Resume</a>
           {/* <a href="/dashboard" className="dashboard-btn">Dashboard</a> */}
         </div>
@@ -36,6 +36,6 @@ const Navbars = () => {
       </Container>
     </header>
   );
-};
+});
 
 export default Navbars;
