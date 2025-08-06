@@ -1,0 +1,153 @@
+:root {
+  --primary-color: #64ffda;
+  --secondary-color: #4fc3f7;
+  --text-primary: #e8f4fd;
+  --text-secondary: #b0bec5;
+  --bg-secondary: rgba(32, 58, 67, 0.8);
+  --bg-tertiary: rgba(44, 83, 100, 0.6);
+  --border-color: rgba(100, 255, 218, 0.2);
+}
+
+.resume-page {
+  min-height: 100vh;
+  color: var(--text-primary);
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Resume Header */
+.resume-header {
+  background: linear-gradient(135deg, rgba(15, 32, 39, 0.9), rgba(44, 83, 100, 0.9));
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.resume-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.resume-header p {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+}
+
+.resume-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.download-btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.download-btn.primary {
+  background: var(--primary-color);
+  color: #0f2027;
+}
+
+.download-btn.primary:hover {
+  background: var(--secondary-color);
+}
+
+.download-btn.secondary {
+  background: transparent;
+  color: var(--text-secondary);
+  border: 1px solid var(--border-color);
+}
+
+.download-btn.secondary:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+/* PDF Viewer */
+.pdf-viewer-section {
+  padding: 2rem 0;
+  background: rgba(32, 58, 67, 0.3);
+}
+
+.pdf-container {
+  background: rgba(44, 83, 100, 0.4);
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  overflow: hidden;
+  position: relative;
+  height: 80vh;
+  min-height: 600px;
+}
+
+.pdf-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: white;
+}
+
+.pdf-fallback {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+  text-align: center;
+  padding: 1rem;
+  background: rgba(15, 32, 39, 0.8);
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+}
+
+.pdf-fallback a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.pdf-fallback a:hover {
+  color: var(--secondary-color);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .resume-header h1 {
+    font-size: 2rem;
+  }
+
+  .resume-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .download-btn {
+    width: 100%;
+    max-width: 250px;
+    justify-content: center;
+  }
+
+  .pdf-container {
+    height: 70vh;
+    min-height: 500px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pdf-container {
+    height: 60vh;
+    min-height: 400px;
+  }
+}
