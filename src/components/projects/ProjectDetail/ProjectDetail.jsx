@@ -123,7 +123,7 @@ const ProjectDetail = () => {
                 )}
               </div>
               
-              {images.length > 1 && (
+              {/* {images.length > 1 && (
                 <div className="thumbnail-scroll-container">
                   <div className="gallery-thumbnails">
                     {images.map((image, index) => (
@@ -137,7 +137,7 @@ const ProjectDetail = () => {
                     ))}
                   </div>
                 </div>
-              )}
+              )} */}
             </div>
           </div>
         </section>

@@ -4,6 +4,7 @@ import Home from './pages/public/Home'
 import Projects from './pages/public/Projects'
 import ProjectGrid from './components/projects/ProjectGrid/'
 import ProjectDetail from './components/projects/ProjectDetail/'
+import About from './pages/public/About';
 import './App.css'
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
             <Route index element={<ProjectGrid/>} />
             <Route path=":slug" element={<ProjectDetail/>} />
           </Route>
-          {/* <Route path='about' element={<About />} /> */}
+          <Route path='about' element={<About />} />
         </Route>
       </Routes>
     </Router>

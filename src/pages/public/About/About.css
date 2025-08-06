@@ -1,0 +1,131 @@
+:root {
+  --primary-color: #64ffda;
+  --secondary-color: #4fc3f7;
+  --accent-color: #81c784;
+  --text-primary: #e8f4fd;
+  --text-secondary: #b0bec5;
+  --text-light: #78909c;
+  --bg-primary: rgba(15, 32, 39, 0.95);
+  --bg-secondary: rgba(32, 58, 67, 0.8);
+  --bg-tertiary: rgba(44, 83, 100, 0.6);
+  --border-color: rgba(100, 255, 218, 0.2);
+  --success-color: #4caf50;
+  --warning-color: #ff9800;
+}
+
+.about-page {
+  min-height: 100vh;
+  color: var(--text-primary);
+}
+
+/* About Header */
+.about-header {
+  background: linear-gradient(135deg, rgba(15, 32, 39, 0.9), rgba(44, 83, 100, 0.9));
+  color: var(--text-primary);
+  padding: 3rem 1rem;
+  /* margin-bottom: 2rem; */
+}
+
+.about-header-content {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.about-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid rgba(100, 255, 218, 0.6);
+  flex-shrink: 0;
+}
+
+.about-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-intro h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+}
+
+.about-intro h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  color: var(--secondary-color);
+}
+
+.location {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: var(--accent-color);
+}
+
+.tagline {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 400px;
+  color: rgba(232, 244, 253, 0.8);
+}
+
+/* Contact CTA */
+.contact-cta-section {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: #0f2027;
+  text-align: center;
+  padding: 3rem;
+  margin: 2rem 0;
+}
+
+.contact-cta h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #0f2027;
+}
+
+.contact-cta p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: rgba(15, 32, 39, 0.8);
+}
+
+.cta-button {
+  display: inline-block;
+  background: #0f2027;
+  color: var(--primary-color);
+  padding: 0.75rem 2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.cta-button:hover {
+  background: rgba(15, 32, 39, 0.8);
+  color: var(--secondary-color);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-header-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+  
+  .about-intro h1 {
+    font-size: 2rem;
+  }
+  
+  .tagline {
+    max-width: 100%;
+  }
+}

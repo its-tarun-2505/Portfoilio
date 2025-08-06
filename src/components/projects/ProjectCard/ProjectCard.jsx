@@ -63,7 +63,7 @@ const ProjectCard = ({ project }) => {
 
         {/* Title and Subtitle */}
         <div className="project-card-header">
-          <h3 className="project-title">{title}</h3>
+          <h2 className="project-heading">{title}</h2>
           {subtitle && <p className="project-subtitle">{subtitle}</p>}
         </div>
 

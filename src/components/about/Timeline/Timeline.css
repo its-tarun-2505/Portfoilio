@@ -1,0 +1,92 @@
+.timeline {
+  padding: 3rem 1rem;
+  background: rgba(15, 32, 39, 0.3);
+}
+
+.timeline .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.timeline h2 {
+  font-size: 2.2rem;
+  margin-bottom: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.timeline-container {
+  position: relative;
+  border-left: 3px solid rgba(100, 255, 218, 0.4);
+  padding-left: 2rem;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2.5rem;
+  padding-left: 1.5rem;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: -10px;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--secondary-color);
+}
+
+.timeline-item.education .timeline-marker {
+  background: var(--accent-color);
+}
+
+.timeline-item.milestone .timeline-marker {
+  background: var(--primary-color);
+}
+
+.timeline-item.achievement .timeline-marker {
+  background: var(--warning-color);
+}
+
+.timeline-year {
+  font-size: 0.9rem;
+  color: var(--secondary-color);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-content h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.timeline-content h4 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.timeline-content p {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .timeline-container {
+    padding-left: 1rem;
+  }
+  
+  .timeline-item {
+    padding-left: 1rem;
+  }
+  
+  .timeline h2 {
+    font-size: 1.8rem;
+  }
+}

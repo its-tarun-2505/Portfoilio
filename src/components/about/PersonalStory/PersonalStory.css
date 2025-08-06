@@ -1,0 +1,39 @@
+.personal-story {
+  padding: 3rem 1rem;
+  background: rgba(32, 58, 67, 0.4);
+}
+
+.personal-story .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.personal-story h2 {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.story-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  color: var(--text-secondary);
+}
+
+.story-content strong {
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .personal-story h2 {
+    font-size: 1.8rem;
+  }
+
+  .story-content p {
+    font-size: 1rem;
+  }
+}

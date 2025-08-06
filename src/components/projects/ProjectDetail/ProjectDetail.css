@@ -218,14 +218,14 @@
 .gallery-thumbnails {
   display: flex;
   gap: 12px;
-  justify-content: center;
+  /* justify-content: center; */
   /* flex-wrap: wrap; */
   overflow: scroll;
   scrollbar-width: none;
 }
 
 .thumbnail {
-  width: 80px;
+  min-width: 80px;
   height: 60px;
   border-radius: 6px;
   overflow: hidden;
@@ -530,8 +530,9 @@
 }
 
 @media (max-width: 480px) {
+ 
   .project-hero {
-    padding: 40px 0 30px;
+    padding: 80px 0 30px;
   }
   
   .project-title {
@@ -552,7 +553,7 @@
   }
   
   .thumbnail {
-    width: 60px;
+    min-width: 60px;
     height: 45px;
   }
 }
