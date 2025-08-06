@@ -6,7 +6,7 @@ import './ProjectGrid.css';
 const ProjectGrid = () => {
   return (
     <section className="projects-section">
-      <div className="container">
+      <div className="project-container">
         <div className="projects-header">
           <h2 className="projects-title">
             Featured <span className="gradient-text">Projects</span>

@@ -1,0 +1,79 @@
+:root {
+  --primary-color: #64ffda;
+  --secondary-color: #4fc3f7;
+  --accent-color: #81c784;
+  --text-primary: #e8f4fd;
+  --text-secondary: #b0bec5;
+  --bg-primary: rgba(15, 32, 39, 0.95);
+  --bg-secondary: rgba(32, 58, 67, 0.8);
+  --bg-tertiary: rgba(44, 83, 100, 0.6);
+  --border-color: rgba(100, 255, 218, 0.2);
+  --error-color: #ff5252;
+  --success-color: #4caf50;
+}
+
+.contact-page {
+  min-height: 100vh;
+  color: var(--text-primary);
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Contact Header */
+.contact-header {
+  background: linear-gradient(135deg, rgba(15, 32, 39, 0.9), rgba(44, 83, 100, 0.9));
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.contact-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.contact-header p {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Contact Content */
+.contact-content {
+  padding: 3rem 0;
+  background: rgba(32, 58, 67, 0.3);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-header h1 {
+    font-size: 2rem;
+  }
+
+  .contact-header p {
+    font-size: 1rem;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .contact-content {
+    padding: 2rem 0;
+  }
+}

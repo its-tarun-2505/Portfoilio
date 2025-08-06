@@ -5,6 +5,7 @@ import Projects from './pages/public/Projects'
 import ProjectGrid from './components/projects/ProjectGrid/'
 import ProjectDetail from './components/projects/ProjectDetail/'
 import About from './pages/public/About';
+import Contact from './pages/public/Contact/'
 import './App.css'
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route path=":slug" element={<ProjectDetail/>} />
           </Route>
           <Route path='about' element={<About />} />
+          <Route path='/contact' element={<Contact/>} />
         </Route>
       </Routes>
     </Router>

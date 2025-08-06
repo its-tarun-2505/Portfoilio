@@ -1,22 +1,22 @@
-.skills-container {
+.home-skills-container {
   padding: 3rem 1rem;
   background-color: #1a2733;
   color: #f1f5f9;
   text-align: center;
 }
 
-.skills-title {
+.home-skills-title {
   font-size: 2.5rem;
   margin-bottom: 2.5rem;
   font-weight: 700;
   color: #007acc;
 }
 
-.skills-category {
+.home-skills-category {
   margin-bottom: 3rem;
 }
 
-.skills-category h3 {
+.home-skills-category h3 {
   font-size: 1.6rem;
   margin-bottom: 1rem;
   /* color: #0f172a; */
@@ -24,7 +24,7 @@
   display: inline-block;
 }
 
-.skills-category h3::after {
+.home-skills-category h3::after {
   content: "";
   display: block;
   height: 3px;
@@ -34,7 +34,7 @@
   border-radius: 2px;
 }
 
-.skills-grid {
+.home-skills-grid {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -42,7 +42,7 @@
   margin-top: 1rem;
 }
 
-.skill-card {
+.home-skill-card {
   width: 110px;
   padding: 1rem;
   border-radius: 12px;
@@ -56,44 +56,44 @@
   background-color: #223344;
 }
 
-.skill-card:hover {
+.home-skill-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-.skill-icon {
+.home-skill-icon {
   font-size: 2rem;
   margin-bottom: 0.5rem;
 }
 
 /* Unique background colors for each skill */
-.skill-card[data-skill="HTML"] { background-color: #e34c26; }
-.skill-card[data-skill="CSS"] { background-color: #264de4; }
-.skill-card[data-skill="JavaScript"] { background-color: #f0db4f; color: #000; }
-.skill-card[data-skill="React.js"] { background-color: #61dafb; color: #000; }
-/* .skill-card[data-skill="Redux"] { background-color: #764abc; } */
-.skill-card[data-skill="Node.js"] { background-color: #3c873a; }
-.skill-card[data-skill="Express.js"] { background-color: #000000; }
-.skill-card[data-skill="Tailwind CSS"] { background-color: #38bdf8; color: #000; }
-.skill-card[data-skill="MongoDB"] { background-color: #47a248; }
-.skill-card[data-skill="MySQL"] { background-color: #00758f; }
-.skill-card[data-skill="Git"] { background-color: #f1502f; }
-.skill-card[data-skill="GitHub"] { background-color: #24292e; }
-.skill-card[data-skill="Java"] { background-color: #007396; }
-.skill-card[data-skill="SQL"] { background-color: #336791; }
-.skill-card[data-skill="DSA"] { background-color: #1d4ed8; }
-.skill-card[data-skill="OOPs"] { background-color: #9333ea; }
+.home-skill-card[data-skill="HTML"] { background-color: #e34c26; }
+.home-skill-card[data-skill="CSS"] { background-color: #264de4; }
+.home-skill-card[data-skill="JavaScript"] { background-color: #f0db4f; color: #000; }
+.home-skill-card[data-skill="React.js"] { background-color: #61dafb; color: #000; }
+/* .home-skill-card[data-skill="Redux"] { background-color: #764abc; } */
+.home-skill-card[data-skill="Node.js"] { background-color: #3c873a; }
+.home-skill-card[data-skill="Express.js"] { background-color: #000000; }
+.home-skill-card[data-skill="Tailwind CSS"] { background-color: #38bdf8; color: #000; }
+.home-skill-card[data-skill="MongoDB"] { background-color: #47a248; }
+.home-skill-card[data-skill="MySQL"] { background-color: #00758f; }
+.home-skill-card[data-skill="Git"] { background-color: #f1502f; }
+.home-skill-card[data-skill="GitHub"] { background-color: #24292e; }
+.home-skill-card[data-skill="Java"] { background-color: #007396; }
+.home-skill-card[data-skill="SQL"] { background-color: #336791; }
+.home-skill-card[data-skill="DSA"] { background-color: #1d4ed8; }
+.home-skill-card[data-skill="OOPs"] { background-color: #9333ea; }
 
 @media (max-width: 768px) {
-  .skills-title {
+  .home-skills-title {
     font-size: 2rem;
   }
 
-  .skills-category h3 {
+  .home-skills-category h3 {
     font-size: 1.3rem;
   }
 
-  .skill-card {
+  .home-skill-card {
     width: 90px;
     padding: 0.8rem;
   }
