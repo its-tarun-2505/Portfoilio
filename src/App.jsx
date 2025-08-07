@@ -7,7 +7,6 @@ import ProjectDetail from './components/projects/ProjectDetail/'
 import About from './pages/public/About';
 import Contact from './pages/public/Contact/'
 import Resume from './pages/public/Resume'
-import './App.css'
 
 function App() {
 

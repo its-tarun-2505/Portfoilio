@@ -76,6 +76,16 @@ const HeroSection = () => {
             <FaEnvelope />
           </a>
         </div>
+        {/* Resume Link */}
+        <a 
+          href="/resume.pdf" 
+          download="Tarun-Agarwal-Resume.pdf" 
+          className="download-btn secondary"
+            style={{margin:"1rem 0"}}
+        >
+          🖹 Download Resume
+        </a>
+
       </div>
       <div className="hero-section__image_container">
         <img src="myPhoto.png" alt="Tarun Agarwal Frontend Developer" />

@@ -17,11 +17,11 @@
   color: var(--text-primary);
 }
 
-.container {
+/* .container {
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 1rem;
-}
+} */
 
 /* Contact Header */
 .contact-header {

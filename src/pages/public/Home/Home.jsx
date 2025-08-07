@@ -1,8 +1,4 @@
-import AboutSummary from '../../../components/home/AboutSummary';
-import HeroSection from '../../../components/home/HeroSection/HeroSection';
-import FeaturedProjects from '../../../components/home/FeaturedProjects';
-import SkillsSection from '../../../components/home/SkillsSection';
-import ContactPreview from '../../../components/home/ContactPreview';
+import {HeroSection, AboutSummary, FeaturedProjects, SkillsSection, ContactPreview} from "../../../components/home";
 
 const Home = () => {
 

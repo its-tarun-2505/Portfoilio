@@ -381,13 +381,22 @@
   font-size: 0.9rem;
 }
 
-.status-completed {
+.status-completed-Completed {
   color: #4caf50;
   background: rgba(76, 175, 80, 0.1);
   padding: 4px 8px;
   border-radius: 4px;
   font-size: 0.8rem;
 }
+
+.status-completed-Ongoing {
+  color: #fab402;
+  background: rgba(230, 166, 28, 0.1);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
 
 /* Bottom Navigation */
 .project-bottom-nav {

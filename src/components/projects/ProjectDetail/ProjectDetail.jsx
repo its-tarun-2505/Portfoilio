@@ -205,7 +205,7 @@ const ProjectDetail = () => {
                   </div>
                   <div className="info-item">
                     <span className="info-label">Status</span>
-                    <span className="info-value status-completed">{status}</span>
+                    <span className={`info-value status-completed-${status}`}>{status}</span>
                   </div>
                 </div>
               </div>

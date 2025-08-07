@@ -29,7 +29,7 @@ const Resume = () => {
 
       {/* PDF Viewer */}
       <section className="pdf-viewer-section">
-        <div className="container">
+        <div className="resume-container">
           <div className="pdf-container">
             <iframe
               src="/resume.pdf#toolbar=1&navpanes=0&scrollbar=1&page=1&view=FitH"

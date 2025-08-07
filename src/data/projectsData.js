@@ -115,10 +115,11 @@ RoomLoop's room system includes over 7 predefined room types (e.g., coding help,
 
     techStack: [
       "React.js",
-      // "Express.js",
-      // "Node.js",
-      // "Context API",
-      // "JWT",
+      "Vite",
+      "HTML5",
+      "JavaScript",
+      "CSS3",
+      "Git/Github"
     ],
 
     description: `
