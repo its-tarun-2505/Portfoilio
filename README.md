@@ -1,5 +1,5 @@
 # Portfolio Website - React
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Protfolio.com-blue?style=for-the-badge&logo=firefox)](https://portfoilio-topaz.vercel.app/home)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Portfolio.com-blue?style=for-the-badge&logo=firefox)](https://portfolio-topaz.vercel.app/home)
 
 This is my personal **portfolio website** built using **React**, **Bootstrap**, and **Vite**. The portfolio showcases my skills, projects, and achievements as a full-stack developer.
 
