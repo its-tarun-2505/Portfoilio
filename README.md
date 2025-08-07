@@ -40,5 +40,4 @@ This portfolio is deployed using **GitHub Pages**. You can view the live version
 - **Projects Database**: Integrate with a backend or CMS to dynamically fetch project details and updates.
 
 ## 👨‍💻 Author
-- **Tarun**  
-  [GitHub](https://github.com/its-tarun-2505) | [LinkedIn](https://linkedin.com/in/its-tarun-2505) | [Twitter](https://twitter.com/its_tarun_2505)
+- **Tarun**
