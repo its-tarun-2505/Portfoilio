@@ -147,8 +147,8 @@ An admin panel lets me add or edit projects on the fly without redeploying. Page
       "/ProjectImages/portfolio/image6.png",
     ],
 
-    githubLink: null,
-    liveLink: null,
+    githubLink: "https://github.com/its-tarun-2505/Portfoilio",
+    liveLink: "https://portfoilio-topaz.vercel.app/home",
     videoLink: null,
     projectType: "Personal Portfolio",
     duration: "1 week",
