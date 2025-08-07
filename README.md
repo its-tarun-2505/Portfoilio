@@ -1,4 +1,5 @@
 # Portfolio Website - React
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-roomloop.com-blue?style=for-the-badge&logo=firefox)](https://portfoilio-topaz.vercel.app/home)
 
 This is my personal **portfolio website** built using **React**, **Bootstrap**, and **Vite**. The portfolio showcases my skills, projects, and achievements as a full-stack developer.
 
@@ -30,9 +31,6 @@ To get started with this project locally, follow these steps:
 2. Install dependencies: `cd Portfoilio && npm install`
 3. Run the development server: `npm run dev` (This will start the development server at `http://localhost:3000`)
 4. Build for production: `npm run build` (This will create an optimized production build in the `build` directory).
-
-## 🌐 Deployment
-This portfolio is deployed using **GitHub Pages**. You can view the live version of the portfolio here: [**https://its-tarun-2505.github.io/Portfoilio**](https://its-tarun-2505.github.io/Portfoilio)
 
 ## 💡 Ideas for Future Enhancements
 - **Contact Form**: Implement form handling to directly send messages to my email.
