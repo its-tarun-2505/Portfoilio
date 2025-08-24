@@ -16,7 +16,6 @@ This is my personal **portfolio website** built using **React**, **Bootstrap**, 
 - **Bootstrap**: A CSS framework to quickly build responsive and styled layouts.
 - **Vite**: A fast and efficient build tool for faster development and optimized production builds.
 - **React Router**: For handling routing and page navigation.
-- **gh-pages**: For easy deployment on GitHub Pages.
 
 ## ⚡ Features to Explore
 
