@@ -1,55 +1,4 @@
 const projectsData = [
-  // cloudCart ->  E-Commerce by NextJs
-  {
-    id: "cloudcart",
-    slug: "cloudcart",
-    title: "CloudCart",
-    subtitle: "Next.js E-Commerce Platform",
-    shortDesc:
-      "Modern e-commerce web app built with Next.js, featuring GitHub OAuth authentication, product catalog, and responsive UI.",
-    tags: ["Next.js", "NextAuth", "OAuth", "E-Commerce"],
-    thumbnail: "/ProjectImages/cloudCart/cloudcart-thumbnail.png",
-    thumbnailAlt: "CloudCart application preview",
-    techStack: [
-      "Next.js 15.5.2",
-      "React 19.1.0",
-      "NextAuth.js",
-      "CSS Modules",
-      "Lucide React",
-      "Node.js"
-    ],
-    description: `
-  CloudCart is a modern e-commerce web application built using Next.js (App Router) that integrates authentication, product catalogs, and responsive UI. It demonstrates production-ready features like protected routes, server-side rendering, and incremental static regeneration.
-
-  Authentication is handled via NextAuth.js with GitHub OAuth, ensuring secure and smooth sign-in flows. Middleware enforces route protection, redirecting unauthenticated users to a custom login page. The product catalog is powered by the DummyJSON API, displaying products across categories like Beauty, Furniture, and Groceries with filtering and grouping capabilities.
-
-  Product detail pages use dynamic routing and provide detailed information, including price calculations, discount handling, stock availability, and ratings. Optimizations like ISR, lazy loading, and Next.js Image ensure performance and scalability. 
-
-  The UI is mobile-first, styled with Tailwind CSS and CSS Modules, and enhanced with Lucide icons and Google Fonts. The navigation includes breadcrumb support and a responsive hamburger menu. Together, these features make CloudCart a production-quality foundation for e-commerce platforms.
-    `,
-    keyPoints: [
-      "Implemented GitHub OAuth authentication with NextAuth.js.",
-      "Protected product routes using NextAuth middleware.",
-      "Fetched and displayed products from DummyJSON API with category filtering.",
-      "Built dynamic product detail pages with ISR and performance optimizations.",
-      "Designed a responsive UI with Tailwind CSS, CSS Modules, and Google Fonts."
-    ],
-    images: [
-      "/ProjectImages/cloudCart/image1.png",
-      "/ProjectImages/cloudCart/image2.png",
-      "/ProjectImages/cloudCart/image3.png",
-      "/ProjectImages/cloudCart/image4.png",
-      "/ProjectImages/cloudCart/image5.png",
-      "/ProjectImages/cloudCart/image6.png",
-      "/ProjectImages/cloudCart/image7.png",
-    ],
-    githubLink: "https://github.com/its-tarun-2505/CloudCart__NextJS",
-    liveLink: "https://cloud-cart-next-js.vercel.app/",
-    videoLink: "",
-    projectType: "E-Commerce Platform",
-    duration: "2 weeks",
-    status: "Completed"
-  },
   // RoomLoop
   {
     id: "roomloop",
@@ -203,7 +152,7 @@ An admin panel lets me add or edit projects on the fly without redeploying. Page
     videoLink: null,
     projectType: "Personal Portfolio",
     duration: "1 week",
-    status:"Completed"
+    status:"Ongoing"
   },
   // //study-notion
   // {
