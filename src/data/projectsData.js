@@ -5,42 +5,33 @@ const projectsData = [
   "slug": "trashure",
   "title": "Trashure",
   "subtitle": "Smart Waste Management Platform",
-  "shortDesc": "A full-stack waste management solution designed to connect citizens and collectors, streamline pickup workflows, and promote eco-friendly practices with modern web technologies.",
-  "tags": [
-    "Next.js",
-    "React",
-    "MongoDB",
-    "Node.js",
-    "JWT Authentication",
-  ],
+  "shortDesc": "A modern waste management platform connecting citizens with collectors, featuring real-time tracking, smart scheduling, and impact dashboards.",
+  "tags": ["Next.js", "React", "MongoDB", "Node.js", "JWT", "Waste Management"],
   "thumbnail": "/ProjectImages/trashure/trashure-thumbnail.png",
   "thumbnailAlt": "Trashure platform preview",
   "techStack": [
-    "Next.js 15 (App Router)",
+    "Next.js 15",
     "React 18",
     "Node.js",
-    "MongoDB + Mongoose ODM",
-    "JWT Authentication",
+    "MongoDB",
+    "Mongoose ODM",
     "CSS Modules",
     "React Icons",
     "Turbopack"
   ],
   "description": `
-  Trashure is an innovative smart waste management platform that bridges the gap between citizens and waste collectors while encouraging sustainable practices. Designed as a scalable SaaS solution, it simplifies the waste collection process with automation, real-time updates, and data-driven insights.
+  Trashure is a comprehensive smart waste management platform designed to simplify and streamline waste collection for both citizens and collectors. It leverages modern web technologies to deliver an intuitive interface, real-time updates, and efficient workflows, making waste management environmentally friendly and hassle-free.
 
-  For **citizens**, the platform provides effortless waste pickup request creation, scheduling flexibility, live tracking of requests, and an approval workflow to ensure service quality. They can also measure their eco-impact through a personalized dashboard.
+  Citizens can easily create pickup requests, track their status, approve completions, and view their environmental contributions through an impact dashboard. Collectors benefit from optimized routing, request management, and performance analytics. Admins oversee the system with user management and analytics dashboards.
 
-  For **collectors**, Trashure offers smart routing, request management tools, live status updates, and performance analytics to maximize efficiency and accountability. Meanwhile, **administrators** gain oversight with dashboards to manage users, requests, and system analytics.
-
-  The system is built using a **Next.js 15 full-stack architecture** with App Router and API routes. MongoDB with Mongoose powers the database, while authentication is handled via secure **JWT tokens with HTTP-only cookies**. The UI is designed to be fully responsive, clean, and intuitive, ensuring accessibility across devices. Real-time notifications and seamless workflows make it both production-ready and user-centric.
+  Technically, Trashure is powered by Next.js 15 with App Router, React 18, MongoDB with Mongoose ODM, and JWT-based authentication. Its responsive design and modern UI ensure accessibility across desktop, tablet, and mobile devices. Secure authentication and real-time notifications make it production-ready and scalable.
   `,
   "keyPoints": [
-    "Developed a role-based platform supporting Citizens, Collectors, and Admins.",
-    "Implemented real-time request tracking and completion approval workflow.",
-    "Built optimized routing and analytics dashboards for waste collectors.",
-    "Integrated secure JWT-based authentication with HTTP-only cookies.",
-    "Designed responsive and accessible UI with modern UX patterns.",
-    "Structured project with reusable components and modular APIs for scalability."
+    "Easy waste pickup request creation with real-time tracking.",
+    "Citizen approval workflow for completed collections.",
+    "Smart scheduling and optimized routing for collectors.",
+    "JWT-based authentication with role-based access control.",
+    "Responsive design with modern UI and smooth animations."
   ],
   "images": [
     "/ProjectImages/trashure/image1.png",
@@ -57,10 +48,11 @@ const projectsData = [
   "githubLink": "https://github.com/its-tarun-2505/Trashure",
   "liveLink": "",
   "videoLink": "",
-  "projectType": "Waste Management SaaS Platform",
+  "projectType": "Waste Management Platform",
   "duration": "1 weeks",
-  // "status": "In Progress"
-},
+  "status": ""
+}
+,
   // cloudCart ->  E-Commerce by NextJs
   {
     id: "cloudcart",
