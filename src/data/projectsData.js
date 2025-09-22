@@ -1,4 +1,66 @@
 const projectsData = [
+//Waste management platform
+{
+  "id": "trashure",
+  "slug": "trashure",
+  "title": "Trashure",
+  "subtitle": "Smart Waste Management Platform",
+  "shortDesc": "A full-stack waste management solution designed to connect citizens and collectors, streamline pickup workflows, and promote eco-friendly practices with modern web technologies.",
+  "tags": [
+    "Next.js",
+    "React",
+    "MongoDB",
+    "Node.js",
+    "JWT Authentication",
+  ],
+  "thumbnail": "/ProjectImages/trashure/trashure-thumbnail.png",
+  "thumbnailAlt": "Trashure platform preview",
+  "techStack": [
+    "Next.js 15 (App Router)",
+    "React 18",
+    "Node.js",
+    "MongoDB + Mongoose ODM",
+    "JWT Authentication",
+    "CSS Modules",
+    "React Icons",
+    "Turbopack"
+  ],
+  "description": `
+  Trashure is an innovative smart waste management platform that bridges the gap between citizens and waste collectors while encouraging sustainable practices. Designed as a scalable SaaS solution, it simplifies the waste collection process with automation, real-time updates, and data-driven insights.
+
+  For **citizens**, the platform provides effortless waste pickup request creation, scheduling flexibility, live tracking of requests, and an approval workflow to ensure service quality. They can also measure their eco-impact through a personalized dashboard.
+
+  For **collectors**, Trashure offers smart routing, request management tools, live status updates, and performance analytics to maximize efficiency and accountability. Meanwhile, **administrators** gain oversight with dashboards to manage users, requests, and system analytics.
+
+  The system is built using a **Next.js 15 full-stack architecture** with App Router and API routes. MongoDB with Mongoose powers the database, while authentication is handled via secure **JWT tokens with HTTP-only cookies**. The UI is designed to be fully responsive, clean, and intuitive, ensuring accessibility across devices. Real-time notifications and seamless workflows make it both production-ready and user-centric.
+  `,
+  "keyPoints": [
+    "Developed a role-based platform supporting Citizens, Collectors, and Admins.",
+    "Implemented real-time request tracking and completion approval workflow.",
+    "Built optimized routing and analytics dashboards for waste collectors.",
+    "Integrated secure JWT-based authentication with HTTP-only cookies.",
+    "Designed responsive and accessible UI with modern UX patterns.",
+    "Structured project with reusable components and modular APIs for scalability."
+  ],
+  "images": [
+    "/ProjectImages/trashure/image1.png",
+    "/ProjectImages/trashure/image2.png",
+    "/ProjectImages/trashure/image3.png",
+    "/ProjectImages/trashure/image4.png",
+    "/ProjectImages/trashure/image5.png",
+    "/ProjectImages/trashure/image6.png",
+    "/ProjectImages/trashure/image7.png",
+    "/ProjectImages/trashure/image8.png",
+    "/ProjectImages/trashure/image9.png",
+    "/ProjectImages/trashure/image10.png",
+  ],
+  "githubLink": "https://github.com/its-tarun-2505/Trashure",
+  "liveLink": "",
+  "videoLink": "",
+  "projectType": "Waste Management SaaS Platform",
+  "duration": "1 weeks",
+  // "status": "In Progress"
+},
   // cloudCart ->  E-Commerce by NextJs
   {
     id: "cloudcart",
@@ -50,6 +112,65 @@ const projectsData = [
     duration: "2 weeks",
     status: "Completed"
   },
+
+  // freshfetch - Food Delivery application
+  // {
+  //   id: "freshfetch",
+  //   slug: "freshfetch",
+  //   title: "FreshFetch",
+  //   subtitle: "Food Delivery Application",
+  //   shortDesc:
+  //     "Comprehensive food delivery app with dual admin and user portals, built using React, Redux, Firebase, and Cloudinary.",
+  //   tags: ["React", "Redux Toolkit", "Firebase", "Cloudinary", "Food Delivery"],
+  //   thumbnail: "/ProjectImages/freshFetch/freshfetch-thumbnail.jpg",
+  //   thumbnailAlt: "FreshFetch application preview",
+  //   techStack: [
+  //     "React 19.1.1",
+  //     "Vite 7.1.2",
+  //     "Redux Toolkit 2.8.2",
+  //     "React Router DOM 7.8.2",
+  //     "Tailwind CSS 4.1.12",
+  //     "Firebase Authentication (REST API)",
+  //     "Google Firestore (REST API)",
+  //     "Cloudinary",
+  //     "Axios 1.11.0",
+  //     "Lucide React",
+  //     "React Icons"
+  //   ],
+  //   description: `
+  // FreshFetch is a modern food delivery platform offering a dual-interface system with separate admin and user portals. It enables restaurants to manage categories, recipes, and orders while allowing users to browse, order, and track food items with ease.
+
+  // The admin portal includes features like category and recipe management (with image uploads via Cloudinary), order tracking, and analytics. The user portal provides category browsing, cart functionality, checkout, order history, and profile management. Role-based authentication ensures secure access, powered by Firebase Authentication and Firestore REST APIs.
+
+  // The app is architected with React and Redux Toolkit for state management, Vite for fast builds, and Tailwind CSS for responsive design. It integrates Cloudinary for optimized image uploads and Firestore for structured data storage. Protected routes, JWT-based authentication, and error boundaries ensure reliability and security.
+
+  // FreshFetch emphasizes scalability, maintainability, and real-world use cases for a production-grade food delivery solution.
+  //   `,
+  //   keyPoints: [
+  //     "Built dual-interface system with separate admin and user portals.",
+  //     "Integrated Firebase Authentication with role-based access control.",
+  //     "Implemented category, recipe, and order management for admins.",
+  //     "Enabled cart, checkout, order history, and profile features for users.",
+  //     "Used Cloudinary for image uploads and optimization.",
+  //     "Implemented Redux Toolkit slices with async thunks for API calls.",
+  //     "Applied responsive design with Tailwind CSS and modern React patterns."
+  //   ],
+  //   images: [
+  //     "/ProjectImages/freshFetch/image1.png",
+  //     "/ProjectImages/freshFetch/image2.png",
+  //     "/ProjectImages/freshFetch/image3.png",
+  //     "/ProjectImages/freshFetch/image4.png",
+  //     "/ProjectImages/freshFetch/image5.png"
+  //   ],
+  //   githubLink: "https://github.com/its-tarun-2505/freshfetch",
+  //   liveLink: "https://freshfetch-demo.vercel.app/",
+  //   videoLink: "https://drive.google.com/file/d/your-demo-video-id/view",
+  //   projectType: "Food Delivery Platform",
+  //   duration: "7 weeks",
+  //   status: "Completed"
+  // },
+
+
   // RoomLoop
   {
     id: "roomloop",
@@ -205,6 +326,7 @@ An admin panel lets me add or edit projects on the fly without redeploying. Page
     duration: "1 week",
     status:"Completed"
   },
+
   // //study-notion
   // {
   //   id: "study-notion",
