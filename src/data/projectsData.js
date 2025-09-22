@@ -46,7 +46,7 @@ const projectsData = [
     "/ProjectImages/trashure/image10.png",
   ],
   "githubLink": "https://github.com/its-tarun-2505/Trashure",
-  "liveLink": "",
+  "liveLink": "https://trashure-delta.vercel.app/",
   "videoLink": "",
   "projectType": "Waste Management Platform",
   "duration": "1 weeks",
