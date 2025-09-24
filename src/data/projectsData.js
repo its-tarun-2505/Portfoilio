@@ -47,7 +47,7 @@ const projectsData = [
   ],
   "githubLink": "https://github.com/its-tarun-2505/Trashure",
   "liveLink": "https://trashure-delta.vercel.app/",
-  "videoLink": "",
+  "videoLink": "https://drive.google.com/file/d/1OuPqd5h6Q2VHm2RDs5gs_aDnJphciVyN/view?usp=sharing",
   "projectType": "Waste Management Platform",
   "duration": "1 weeks",
   "status": ""
